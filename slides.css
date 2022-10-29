@@ -1,0 +1,92 @@
+* {
+    padding: 0;
+    margin: 0;
+    color: white;
+}
+
+body {
+    background-image: url("https://i.pinimg.com/736x/a9/82/bc/a982bc0d662e644ce04e92d702e3bcf8--wallpaper-city-bridge-wallpaper.jpg");
+    background-size: cover;
+    height: 100vh;
+}
+
+.heading-txt {
+    display: flex;
+    text-align: center;
+    margin-left: 40%;
+}
+
+.Tour {
+    margin-right: 35px;
+}
+
+.Help {
+    margin-right: 35px;
+}
+
+.Upgrade {
+    margin-right: 35px;
+}
+
+.title {
+    font-family: Impact;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.title:hover {
+    color: aqua;
+    transition: 0.05s;
+}
+
+.heading-txt :hover {
+    color: aqua;
+    font-size: larger;
+    transition: 0.05s;
+}
+
+.main-txt :hover {
+    color: red;
+    transition: 0.05s;
+}
+
+.main-txt {
+    margin-top: 9%;
+    margin-left: 200px;
+}
+
+.main-txt > h2 {
+    font-size: 200%;
+}
+
+.mt-txt {
+    width: 50%;
+    margin-top: 2%;
+}
+
+.Camera {
+    margin-top: 10px;
+    width: 251px;
+}
+
+.txt-1 {
+    display: flex;
+}
+
+.Messages {
+    margin-top: 15px;
+}
+
+.txt-2 {
+    display: flex;
+    margin-top: 10px;
+}
+
+.Muisic {
+    width: 20%;
+    margin-right: 15px;
+}
+
+.Channels {
+    width: 20%;
+}
